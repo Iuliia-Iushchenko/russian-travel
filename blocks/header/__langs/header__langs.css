@@ -1,0 +1,7 @@
+.header__langs {
+  width: calc(30px + 18px + 30px);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 17px 0 12px;
+}
