@@ -4,3 +4,61 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 
+.content {
+  margin: 0 auto;
+}
+
+.intro {
+  max-width: 683px;
+  margin: 0;
+  padding: 80px 529px 102px 228px;
+}
+
+.intro__title {
+  font-size: 3.375rem;
+  line-height: 3.6875rem;
+  font-weight: 900;
+  margin: 0;
+  padding-bottom: 48px;
+}
+
+.intro__description {
+  margin: 0;
+  font-size: 	0.875rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 24px;
+}
+
+.intro__lists {
+  margin: 0;
+  padding: 0;
+}
+
+.intro__list {
+  list-style-type: none;
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+}
+
+.intro__list_type_bold {
+  font-weight: 900;
+}
+
+.photo__grid {
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-gap: 15px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.photo__grid_element {
+  height: 188px;
+  width: 100%;
+  object-fit: cover;
+}
+
