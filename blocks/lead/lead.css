@@ -5,6 +5,5 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  min-height: 950px;
   padding-top: 48px;
 }
