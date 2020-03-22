@@ -1,5 +1,5 @@
 .header__langs {
-  width: calc(30px + 18px + 30px);
+  width: 78px;
   display: flex;
   justify-content: space-between;
   margin: 0;

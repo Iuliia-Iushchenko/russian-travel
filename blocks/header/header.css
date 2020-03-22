@@ -5,9 +5,7 @@
 @import url(./__lang/_active/header__lang_active.css);
 
 .header {
-  max-width: 1184px;
   min-height: 52px;
-  margin: 0 auto;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
