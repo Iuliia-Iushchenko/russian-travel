@@ -1,0 +1,13 @@
+.place__url {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+
+  -webkit-transition: opacity .5s linear; /* Для Chrome, Android Browser */
+  transition: opacity .5s linear;
+}
+
+.place__url:hover {
+  opacity: .4;
+}

@@ -1,0 +1,10 @@
+.video__item {
+  max-width: 583px;
+  height: 323px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video__item:last-of-type {
+  padding-right: 0;
+}

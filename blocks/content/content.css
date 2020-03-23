@@ -1,0 +1,5 @@
+@import url(./__width/content__width.css);
+
+.content {
+  margin: 0 auto;
+}
