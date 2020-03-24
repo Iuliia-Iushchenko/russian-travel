@@ -7,3 +7,18 @@
   margin: 0 auto;
   padding: 48px 0 72px 0;
 }
+
+@media screen and (max-width: 1012px) {
+  .content-subtitle {
+    padding: 24px 0 56px 0;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .content-subtitle {
+    max-width: 90%;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 16px 0 24px 0;
+  }
+}

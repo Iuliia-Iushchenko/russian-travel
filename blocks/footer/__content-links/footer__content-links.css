@@ -1,0 +1,20 @@
+.footer__content-links {
+  width: 664px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1012px) {
+  .footer__content-links {
+    width: 465px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .footer__content-links {
+    width: 50%;
+    display: block;
+  }
+}

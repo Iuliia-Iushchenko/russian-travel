@@ -3,3 +3,23 @@
   object-fit: cover;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 1217px) {
+  .video__background-pic {
+    width: 456px;
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .video__background-pic {
+    width: 352px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .video__background-pic {
+    width: 100%;
+  }
+}

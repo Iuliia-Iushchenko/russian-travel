@@ -6,3 +6,15 @@
   font-weight: normal;
   padding-bottom: 80px;
 }
+
+@media screen and (max-width: 1012px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .lead__caption {
+    padding-bottom: 64px;
+  }
+}

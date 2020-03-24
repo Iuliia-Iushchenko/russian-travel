@@ -2,3 +2,20 @@
   max-width: 484px;
   grid-area: paragraph-container;
 }
+
+@media screen and (max-width: 1012px) {
+  .place__paragraph-container {
+   max-width: 352px;
+ }
+}
+
+@media screen and (max-width: 677px) {
+  .place__paragraph-container {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 96%;
+    margin: 0;
+  }
+}

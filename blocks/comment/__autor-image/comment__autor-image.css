@@ -1,0 +1,10 @@
+.comment__autor-image {
+  width: 97px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1012px) {
+  .comment__autor-image {
+    margin: 0 auto;
+  }
+}

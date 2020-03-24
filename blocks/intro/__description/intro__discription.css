@@ -5,3 +5,11 @@
   font-weight: normal;
   padding-bottom: 24px;
 }
+
+@media screen and (max-width: 677px) {
+  .intro__description {
+    font-size: 	16px;
+    line-height: 27px;
+    padding-bottom: 32px;
+  }
+}

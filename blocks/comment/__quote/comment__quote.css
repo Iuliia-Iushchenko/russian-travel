@@ -1,0 +1,26 @@
+.comment__quote {
+  font-weight: normal;
+  font-size: 	14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 48px 0 24px 0;
+}
+
+@media screen and (max-width: 1217px) {
+  .comment__quote {
+    padding: 42px 0 17px 0;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .comment__quote {
+    font-size: 	16px;
+    line-height: 23px;
+    padding: 24px 0 48px 0;
+    order: 2;
+  }
+
+  .comment__quote:last-of-type {
+    padding-bottom: 102px;
+  }
+}

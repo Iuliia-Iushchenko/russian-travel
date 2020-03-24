@@ -1,0 +1,25 @@
+.comment__container {
+  max-width: 382px;
+}
+
+@media screen and (max-width: 1217px) {
+  .comment__container {
+    max-width: 296px;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .comment__container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .comment__container {
+    max-width: 93%;
+  }
+}

@@ -8,3 +8,30 @@
 .video__item:last-of-type {
   padding-right: 0;
 }
+
+@media screen and (max-width: 1217px) {
+  .video__item {
+    max-width: 456px;
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .video__item {
+    max-width: 352px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .video__item {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .video__item {
+    max-width: 288px;
+    height: 192px;
+  }
+}

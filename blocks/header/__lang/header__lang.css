@@ -20,3 +20,11 @@
 .header__lang:active {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 677px) {
+  .header__lang {
+    height: 18px;
+    font-size: 18px;
+    line-height: 17px;
+  }
+}

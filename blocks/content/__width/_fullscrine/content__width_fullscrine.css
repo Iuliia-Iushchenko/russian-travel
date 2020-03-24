@@ -1,0 +1,5 @@
+@media screen and (max-width: 1012px) {
+  .content__width_fullscrine {
+    max-width: 100%;
+  }
+}

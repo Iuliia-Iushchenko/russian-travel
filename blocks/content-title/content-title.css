@@ -6,3 +6,19 @@
   text-align: center;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1012px) {
+  .content-title {
+    max-width: 93%;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .content-title {
+    max-width: 93%;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

@@ -2,3 +2,14 @@
   padding-top: 30px;
   padding-left: 30px;
 }
+@media screen and (max-width: 1012px) {
+  .video__icon {
+   padding-top: 24px;
+ }
+}
+
+@media screen and (max-width: 677px) {
+  .video__icon {
+    padding-left: 24px;
+  }
+}

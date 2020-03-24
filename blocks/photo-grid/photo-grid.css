@@ -8,3 +8,16 @@
   padding: 102px 0 20px 0;
   justify-items: center;
 }
+
+@media screen and (max-width: 1012px) {
+  .photo-grid {
+    padding: 97px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(343px, 1fr));
+    padding-top: 64px;
+  }
+}

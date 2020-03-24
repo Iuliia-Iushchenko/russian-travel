@@ -7,3 +7,22 @@
   padding-top: 94px;
   padding-left: 30px;
 }
+
+@media screen and (max-width: 1217px) {
+  .video__duration {
+    padding-top: 54px;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .video__duration {
+    padding-top: 36px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .video__duration {
+    padding-top: 41px;
+    padding-left: 24px;
+  }
+}

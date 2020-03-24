@@ -7,3 +7,10 @@
   line-height: 20px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 677px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
