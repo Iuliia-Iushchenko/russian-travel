@@ -1,10 +1,18 @@
 .lead__image {
   width: 100%;
-  padding-bottom: 16px;
+  height: 100%;
+  padding-bottom: 10.87px;
+}
+
+@media screen and (max-width: 1217px) {
+  .lead__image {
+    padding-bottom: 16px;
+  }
 }
 
 @media screen and (max-width: 677px) {
   .lead__image {
     padding-bottom: 8px;
+    min-height: 211px;
   }
 }

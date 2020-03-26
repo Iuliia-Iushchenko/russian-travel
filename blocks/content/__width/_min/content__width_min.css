@@ -5,12 +5,18 @@
 
 @media screen and (max-width: 1217px) {
   .content__width_min {
-    max-width: 96%;
+    max-width: calc(100% - 48px - 48px);
+  }
+}
+
+@media screen and (max-width: 1012x) {
+  .content__width_min {
+  max-width: calc(100% - 24px - 24px);
   }
 }
 
 @media screen and (max-width: 677px) {
    .content__width_min {
-    max-width: 93%;
+    max-width: calc(100% - 16px - 16px);
   }
 }

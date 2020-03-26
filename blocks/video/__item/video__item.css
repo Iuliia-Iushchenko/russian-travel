@@ -1,6 +1,5 @@
 .video__item {
-  max-width: 583px;
-  height: 323px;
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -11,27 +10,25 @@
 
 @media screen and (max-width: 1217px) {
   .video__item {
-    max-width: 456px;
     height: 288px;
   }
 }
 
 @media screen and (max-width: 1012px) {
   .video__item {
-    max-width: 352px;
     height: 200px;
   }
 }
 
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 767px) {
   .video__item {
     max-width: 343px;
   }
 }
 
-@media screen and (max-width: 378px) {
+@media screen and (max-width: 374px) {
   .video__item {
-    max-width: 288px;
+    width: 100%;
     height: 192px;
   }
 }

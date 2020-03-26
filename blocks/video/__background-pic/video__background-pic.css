@@ -1,25 +1,25 @@
 .video__background-pic {
-  width: 583px;
+  width: 100%;
   object-fit: cover;
+  overflow: hidden;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 1217px) {
   .video__background-pic {
-    width: 456px;
     height: 288px;
   }
 }
 
 @media screen and (max-width: 1012px) {
   .video__background-pic {
-    width: 352px;
     height: 200px;
   }
 }
 
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 374px) {
   .video__background-pic {
-    width: 100%;
+    height: 192px;
   }
 }
+
