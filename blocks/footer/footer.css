@@ -1,5 +1,24 @@
-@import url(./__content-info/footer__content-info.css);
 @import url(./__content-links/footer__content-links.css);
 @import url(./__list/footer__list.css);
 @import url(./__content-link/footer__content-link.css);
 @import url(./__autor/footer__autor.css);
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 0 48px 0;
+  }
+  
+  @media screen and (max-width: 1012px) {
+    .footer {
+      padding: 102px 0 24px 0;
+    }
+  }
+  
+  @media screen and (max-width: 677px) {
+    .footer {
+      display: block;
+      padding: 64px 0 24px 0;
+    }
+  }

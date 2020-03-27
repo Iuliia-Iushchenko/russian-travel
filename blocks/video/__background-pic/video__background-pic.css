@@ -1,25 +1,23 @@
+@import url(./_kamchatka/video__background-pic_kamchatka.css);
+@import url(./_observatory/video__background-pic_observatory.css);
+
 .video__background-pic {
   width: 100%;
-  object-fit: cover;
+  height: 100%;
   overflow: hidden;
   border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-@media screen and (max-width: 1217px) {
-  .video__background-pic {
-    height: 288px;
-  }
-}
-
-@media screen and (max-width: 1012px) {
-  .video__background-pic {
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  .video__background-pic {
-    height: 192px;
-  }
+.video__background-pic::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0;
 }
 

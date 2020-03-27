@@ -7,7 +7,7 @@
   padding-left: 30px;
 }
 
-@media screen and (max-width: 1012px) {
+@media screen and (max-width: 1023px) {
   .video__subtitle {
     padding-top: 12px;
   }

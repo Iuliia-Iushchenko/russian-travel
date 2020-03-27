@@ -1,3 +1,10 @@
+@media screen and (max-width: 1217px) {
+  .content__width_fullscrine:not(:first-child) {
+    max-width: 100%;
+  }
+}
+
+
 @media screen and (max-width: 1012px) {
   .content__width_fullscrine {
     max-width: 100%;
