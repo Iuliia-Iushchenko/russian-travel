@@ -21,3 +21,5 @@
 * grid-layout.
 
 Файловая структура проекта оформлена по правилам Nested БЭМ.
+
+Ссылка на готовый проект: https://iuliia-iushchenko.github.io/russian-travel/
